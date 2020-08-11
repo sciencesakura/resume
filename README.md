@@ -1,6 +1,6 @@
 # 職務経歴書
 
-最終更新日: 2020-07-29（最新版は https://github.com/sciencesakura/resume を参照下さい）
+最終更新日: 2020-08-11（最新版は https://github.com/sciencesakura/resume を参照下さい）
 
 ## 基本情報
 
@@ -8,9 +8,11 @@
 
 * 拠点: 東京
 
+* GitHub: https://github.com/sciencesakura
+
 ## スキル
 
-### 言語
+### プログラミング言語
 
 #### プロダクト・コードが書け, 他人のコードを評価できる
 
@@ -44,7 +46,7 @@
 
 * 他のメンバに対する技術サポート
 
-* テスト, デプロイの自動化・省力化
+* テスト, ビルドの自動化・省力化
 
 ### 資格
 
@@ -70,11 +72,11 @@
 
 * コード, 運用設計のレビュアを担当
 
-* フレームワークの他, GitやLinuxコマンドの使い方についてなど開発メンバをサポート
+* Spring Frameworkの他, GitやLinuxコマンドの使い方についてなど開発メンバをサポート
 
-* ミドルウェア担当としてステージング／本番環境のTomcat, Apache構築. その他cronによるバッチスケジューリングやlogrotate設定等アプリに必要なサーバ上の作業全般を担当
+* MW担当としてステージング／本番環境のTomcat, Apache構築. その他cronによるバッチスケジューリングやlogrotate等アプリに必要なサーバ上の設定全般を担当
 
-* 運用チームと調整しMavenのタスク定義とデプロイ手順をリファクタリング, ビルド及びデプロイを省力化した
+* Mavenのタスク定義とデプロイ手順のリファクタリングを提案, 運用チームと調整しビルド及びデプロイを省力化
 
 * CSVアップロード画面を高速化（レコード数10万件級を10分→30秒）
 
@@ -100,7 +102,7 @@
 
 ### 2019-04 〜 2019-05: 営業支援システム改修
 
-放送事業者既存システムのハードウェア刷新とOS, ミドルウェアのバージョンアップ
+放送事業者既存システムのHW刷新とOS, MWのバージョンアップ
 
 |チーム規模|アプリ規模|
 |-|-|
@@ -114,7 +116,7 @@
 
 * 性能試験の計画と実施を担当
 
-* 使用実績を元に繁忙期+αのアクセス数を想定, 本番環境のログから現実感のあるHTTPリクエストボディを生成し, JMeterで試験, 結果のレポートを行った
+* 使用実績を元に繁忙期+αのアクセス数を想定, 本番環境のログから現実感のあるHTTPリクエストボディを生成し, JMeterを用いた試験を行った
 
 ### 2019-01 〜 2019-03: 会計事務システム改修
 
@@ -184,9 +186,9 @@
 
 * リリース後は保守担当として顧客からの問い合わせや障害に対応
 
-### 2014-12 〜 2015-05: 通関業務システム改修
+### 2014-12 〜 2015-04: 通関業務システム改修
 
-商社既存システムのHW刷新とOS, ミドルウェアのバージョンアップ
+商社既存システムのHW刷新とOS, MWのバージョンアップ
 
 |チーム規模|アプリ規模|
 |-|-|
@@ -194,7 +196,7 @@
 
 |OS|言語|MW|FW|ORM|その他|
 |-|-|-|-|-|-|
-|Windows|Java 6|Apache<br>WebSphere<br>Tomcat<br>SQL Server|Struts 1|Torque|Hyper-V<br>Subversion|
+|Windows|Java 6|Apache<br>Tomcat<br>SQL Server|Struts 1|Torque|Hyper-V<br>Subversion|
 
 * バージョンアップの調査, 見積, 実作業を担当
 
@@ -212,11 +214,11 @@
 |-|-|-|-|-|-|
 |Windows|Java 6<br>JavaScript<br>C#|Oracle 12c|intra-mart<br>jQuery<br>VSTO|MyBatis|Subversion|
 
-* 客先で稼働中のフレームワークに合わせたパッケージのグレードダウンを担当（intra-mart 8→7, Java 7→6）
+* 客先で稼働中のFWに合わせたパッケージのグレードダウンを担当（intra-mart 8→7, Java 7→6）
 
 * ステージング環境の構築
 
-### 2014-04 〜 2015-05: 通関業務システム保守
+### 2014-04 〜 2014-09: 通関業務システム保守
 
 商社既存システムの保守
 
@@ -232,7 +234,7 @@
 
 * リポジトリサーバを刷新（CVS→Subversion）
 
-* Eclipse上にて手動で行っていたビルド, デプロイ作業をMaven導入により省力化
+* Eclipse上にて手動で行っていたビルド, デプロイ作業にMavenの導入を提案, 作業を省力化した
 
 ### 2014-01 〜 2014-03: 文書管理システム新規導入
 
@@ -244,7 +246,7 @@
 
 |OS|言語|MW|FW|ORM|その他|
 |-|-|-|-|-|-|
-|RHEL|Java 7<br>JavaScript|Apache<br>JBoss<br>Oracle WebCenter Content<br>Oracle 11g|Spring Framework<br>intra-mart<br>Bootstrap|MyBatis|Subversion|
+|RHEL|Java 7<br>JavaScript|Apache<br>JBoss<br>Oracle 11g|Spring Framework<br>intra-mart<br>Bootstrap|MyBatis|Subversion|
 
 * システム試験のシナリオ作成と実施を担当
 
@@ -264,7 +266,7 @@
 
 * 画面, 共通部品の設計開発〜試験を担当
 
-* フレームワークについて開発メンバをサポート
+* intra-mart, jQueryについて開発メンバをサポート
 
 ### 2012-06 〜 2013-03: 経費精算システム新規導入
 
